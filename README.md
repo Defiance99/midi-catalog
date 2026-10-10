@@ -8,12 +8,19 @@ do not edit by hand; rebuild and replace the files instead.
 
 ## Sources and licences
 
-All MIDI files come from the [Mutopia Project](https://www.mutopiaproject.org),
-sheet music typeset in LilyPond by volunteers. Each piece keeps its own licence,
-listed in `catalog.json` (`license`, `typesetBy`, `sourceUrl`):
+MIDI files come from two sources. Each piece keeps its own licence, listed in
+`catalog.json` (`license`, `typesetBy`, `sourceUrl`).
+
+[Mutopia Project](https://www.mutopiaproject.org) (`mutopia-*`), sheet music
+typeset in LilyPond by volunteers:
 
 - Public Domain
 - Creative Commons Attribution (CC BY 2.5 / 3.0 / 4.0)
 - Creative Commons Attribution-ShareAlike (CC BY-SA 2.0 / 2.5 / 3.0 / 4.0)
 
 Files under CC BY-SA remain under the same licence here.
+
+[OpenScore Lieder](https://github.com/OpenScore/Lieder) (`openscore-*`), songs
+for voice and piano transcribed by volunteers, released under CC0 1.0. Each song
+is arranged for piano: the voice's melody joins the right hand, lyrics are left
+out (`flutter/tool/catalog/openscore_lieder.py`).
